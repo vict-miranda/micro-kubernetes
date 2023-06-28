@@ -20,6 +20,6 @@ spec:
     spec:
      containers:
       - name: gateway-app
-        image: vaxidrez/serviciosapigateway:v3.#{Build.BuildId}#
+        image: isaga01/serviciosapigateway:v3.#{Build.BuildId}#
         ports:
           - containerPort: 80

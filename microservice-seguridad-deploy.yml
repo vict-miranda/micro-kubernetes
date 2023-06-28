@@ -20,9 +20,9 @@ spec:
     spec:
       containers:
         - name: microservice-seguridad-app
-          image: vaxidrez/serviciosapiseguridad:v3.#{Build.BuildId}#
+          image: isaga01/serviciosapiseguridad:v3.#{Build.BuildId}#
           ports:
             - containerPort: 80
           env:
             - name: ConnectionStrings__ConexionDB
-              value: Server=mssql-service;Database=Seguridad;User=sa;Password=$VaxiDrez2025
+              value: Server=mssql-service;Database=Seguridad;User=sa;Password=$Isaga2025

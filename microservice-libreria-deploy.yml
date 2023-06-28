@@ -20,9 +20,9 @@ spec:
     spec:
       containers:
         - name: microservice-libreria-app
-          image: vaxidrez/serviciosapilibreria:v3.#{Build.BuildId}#
+          image: isaga01/serviciosapilibreria:v3.#{Build.BuildId}#
           ports:
             - containerPort: 80
           env:
             - name: MongoDb__ConnectionString
-              value: mongodb://vaxidrez:$VaxiDrez2025@mongo-service:27017
+              value: mongodb://isaga01:$Isaga2025@mongo-service:27017

@@ -8,9 +8,9 @@ metadata:
 spec:
   containers:
     - name: microservice-libreria-app
-      image: vaxidrez/serviciosapilibreria:latest
+      image: isaga01/serviciosapilibreria:latest
       ports:
         - containerPort: 80
       env:
         - name: MongoDb__ConnectionString
-          value: mongodb://vaxidrez:$VaxiDrez2025@mongo-service:27017
+          value: mongodb://isaga01:$Isaga2025@mongo-service:27017

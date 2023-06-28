@@ -8,6 +8,6 @@ metadata:
 spec:
   containers:
     - name: gateway-app
-      image: vaxidrez/serviciosapigateway:latest
+      image: isaga01/serviciosapigateway:latest
       ports:
         - containerPort: 80

@@ -15,11 +15,11 @@ namespace Servicios.api.Seguridad.Core.Persistence
 
                 var usuario = new Usuario
                 {
-                    Nombre = "Vaxi",
-                    Apellido = "Drez",
+                    Nombre = "Victor",
+                    Apellido = "Miranda",
                     Direccion = "Av. La Madrid 369",
-                    UserName = "vaxidrez",
-                    Email = "vaxi.drez@gmail.com"
+                    UserName = "isaga01",
+                    Email = "isagarap@gmail.com"
                 };
 
                 await usuarioManager.CreateAsync(usuario, "Password123$");
